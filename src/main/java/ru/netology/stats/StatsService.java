@@ -4,7 +4,7 @@ public class StatsService {
     public int sumSales(int[] sales) {
         int sum = 0;
 
-        for (int i=0; i < sales.length; i++) {
+        for (int i = 0; i < sales.length; i++) {
             if (sales[i] > 0) {
                 sum = sum + sales[i];
             }
@@ -17,7 +17,7 @@ public class StatsService {
         int sum = 0;
         int average = 0;
 
-        for (int i=0; i < sales.length; i++) {
+        for (int i = 0; i < sales.length; i++) {
             if (sales[i] > 0) {
                 sum = sum + sales[i];
                 average = sum / 12;
